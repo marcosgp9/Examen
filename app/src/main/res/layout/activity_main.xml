@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/bMenuRegistrar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClick"
+        android:text="Registrar Contacto" />
+
+    <Button
+        android:id="@+id/bMenuConsultar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bMenuRegistrar"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:text="Listar contactos" />
+
+    <Button
+        android:id="@+id/bMenuEliminar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bMenuConsultar"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:onClick="onClick"
+        android:layout_marginTop="15dp"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/bMenuModificar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bMenuEliminar"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        android:text="Modificiar" />
+
+
+</RelativeLayout>

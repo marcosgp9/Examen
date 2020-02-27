@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Examen</string>
+
+    <string name="title_id">id</string>
+    <string name="title_nombre">nombre</string>
+    <string name="title_telefono">telefono</string>
+
+
+</resources>
